@@ -1,0 +1,144 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+a {text-decoration: none; color: #666;}
+button {font-family: 'Merriweather', serif;}
+
+header {
+    width: 100%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+}
+header:hover {background-color: #b2ccc9;}
+
+#header-first {
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#header-first div {display: flex; width: 30%;}
+#web-title {padding: 1%;}
+#header-first-first {text-align: end; justify-content: flex-end;}
+#header-second {width: 100%; text-align: center;}
+#header-second a:hover {border-bottom: 1px solid;}
+
+header div a {
+    text-align: center;
+    width: 45%;
+    margin: 0 2%;
+}
+
+#first-section {display: flex;}
+#first-section div {
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#sport-shoes {background: url('img/shoes.jpg') no-repeat right; align-items: flex-end;}
+#classic-shoes {background: url('img/shoes_2.jpg') no-repeat; align-items: flex-start;}
+
+#first-section div h1 {width: 40%; text-align: center;}
+#first-section div button {padding: 2% 5%; width: 40%;}
+
+#second-section {
+    background: url('https://images.unsplash.com/photo-1551489186-ccb95a1ea6a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80')
+    no-repeat;
+    background-size: cover;
+    padding: 30% 10% 5% 10%;
+}
+#second-section div {
+    background-color: #ffffffbf;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+#second-section div h3 {width: 80%;}
+#second-section div button {padding: 1% 2%; margin: 5%;}
+
+#third-section {
+    background: url('https://images.unsplash.com/photo-1535268244390-8b989b92d2bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80')
+    no-repeat top;
+    background-size: cover;
+    padding: 10%;
+}
+#third-section div {
+    padding: 10%;
+    background-color: #ffffffbf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#third-section div p {margin-bottom: 5%; text-align: center;}
+#third-section div button {padding: 2% 5%;}
+
+#fourth-title {padding: 5%; text-align: center;}
+#fourth-content {display: flex;}
+#fourth-content img {width: 25%;}
+
+#five-section {
+    padding: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#five-section p {width: 80%;}
+#five-section button {padding: 2% 10%; margin-top: 2%;}
+
+#six-section {
+    width: 40%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#six-section input {width: 90%; margin: 5% 0; padding: 2% 10px;}
+#six-section button {padding: 2% 10%; margin-top: 2%;}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b2ccc9;
+  align-items: center;
+  padding: 5%;
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info p {
+  margin: 0;
+  padding: 5px 0;
+}
+.contact-info a {color: #666;}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons i {
+  font-size: 30px;
+  color: #666;
+}
